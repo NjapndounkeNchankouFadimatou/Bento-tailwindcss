@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+    <title>Bento</title>
+</head>
+ <style type="text/tailwindcss">
+    @theme {
+        --font-inter:'Inter' ,sans-serif;
+        --color-header:#F35034;
+        --color-section:#1B1B1B;
+        --color-border:#262626;
+        --color-texte:#FFFFFF;
+        }
+</style>
+
+<body class="bg-gray-500">
+    <div class=" flex-col my-[23px] mx-[24px]">
+
+    <header class="flex gap-none h-[44px]  items-center mb-[12px] ">
+        <div class="rounded-[33px] p-[8.25px] border bg-section border-border">
+        <img src="images/Mark.svg" alt="Pas d'images" class="w-[24px] h-[24px]">
+        </div>
+        <div class="flex justify-between items-center rounded-[22px]  py-[10px] px-[16px] w-full h-[44px] bg-section border border-border">
+            <nav class="flex">
+                <ul>
+                    <li class="text-header font-bold text-[24px] text-inter">ABOUT</li>
+                    <li class="hidden">PORTFOLIO</li>
+                    <li class="hidden">CONTACT</li>
+                </ul>
+            </nav>
+            <img src="images/mi_menu.svg" alt="Pas d'images" class="w-[24px] h-[24px]">
+        </div>
+    </header>
+
+    <section class="flex-col">
+        <p>UI/UX Designer</p>
+        <h1>I'm Zinab Nisa</h1>
+        <p>I design digital products with greatt experience</p>
+        <div>
+            <button>Hire me </button>
+            <button>+</button>
+            <p>Copy Email</p>
+            <button>
+                <img src="images/ph_copy.svg" alt="Pas d'images">
+            </button>
+        </div>
+
+        <div>
+            <p><span> </span> AVAILABLE FOR JOB</p>
+            <img src="images/Ellipse 61.svg" alt="">
+        </div>
+    </section>
+
+    <section class="flex-col  bg-section border border-border mt-[12px] rounded-[9px] px-[20.5px] py-[22px] h-[350px]">
+        <p class="text-[#C0C0C0] font-medium text-[16px] text-inter pb-[38px]"> <span class="text-[#C0C0C0] rounded border w-[1px] h-[1px] mr-[1px] "> </span>Recent Work</p>
+
+        <div class="flex-col justify-between">
+
+            <div class="flex justify-between items-center pb-[20px]">
+                <div class="flex-col gap-[8px]">
+                    <p class="text-texte font-bold text-[16px] text-inter hover:text-header">Product designer</p>
+                    <p class="text-texte font-medium text-[15px] text-inter">2023 - Present</p>
+                </div>
+                <p class="text-texte font-medium text-[15px] text-inter">Figma</p>
+            </div>
+
+            <div class="flex justify-between items-center pb-[20px]">
+                <div class="flex-col gap-[8px]">
+                    <p class="text-texte font-bold text-[16px] text-inter hover:text-header">UI/UX designer</p>
+                    <p class="text-texte font-medium text-[15px] text-inter">2021 - 2022</p>
+                </div>
+                <p class="text-texte font-medium text-[15px] text-inter">Google</p>
+            </div>  
+
+            <div class="flex justify-between items-center pb-[20px]">
+                <div class="flex-col gap-[8px]">
+                  <p class="text-texte font-bold text-[16px] text-inter hover:text-header">Product designer</p>
+                    <p class="text-texte font-medium text-[15px] text-inter">2023  - Present</p>
+                </div>
+                <p class="text-texte font-medium text-[15px] text-inter">Figma</p>
+            </div>
+
+            <div class="flex justify-between items-center pb-[20px]">
+                <div class="flex-col gap-[8px]">
+                    <p class="text-texte font-bold text-[16px] text-inter hover:text-header">Product designer</p>
+                    <p class="text-texte font-medium text-[15px] text-inter">2023  - Present</p>
+                </div>
+                <p class="text-texte font-medium text-[15px] text-inter">Figma</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex-col mt-[12px] ">
+        <div class="w-full border border-border rounded-[7.7px] bg-gradient-to-r from-[#1B1B1B] from-50% via-[#E63E21] to-[#33130E00] h-[82px] flex justify-center items-center mb-[12px]">
+            <p class="text-texte font-medium text-[14px] text-inter">Product design</p>
+        </div>
+        <div class="flex gap-[12px]">
+            <div class="w-full border border-border rounded-[7.7px] bg-gradient-to-r from-[#1B1B1B] from-50% via-[#E63E21] to-[#33130E00] h-[82px] flex-1 flex  justify-center items-center">
+                <p class="text-texte font-medium text-[14px] text-inter">User Experience</p>
+            </div>
+
+            <div class="w-full border border-border rounded-[7.7px] bg-gradient-to-r from-[#1B1B1B] from-50% via-[#E63E21] to-[#33130E00] h-[82px] flex flex-1 justify-center items-center">
+                <p class="text-texte font-medium text-[14px] text-inter">NoCode develop</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex-col bg-section border border-border rounded-[12px] mt-[12px]">
+        <div class="flex justify-between  items-center pt-[27px] mb-[25px] px-[29px]">
+            <div>
+                <p class="text-texte font-bold text-[16px] text-inter">IOS Mobile app</p>
+                <p class="text-texte font-medium text-[14px] text-inter">Product develop</p>
+            </div>
+            <img src="images/majesticons_arrow-up-line.svg" alt="Pas d'images">
+        </div>
+        <img src="images/iPhone Space gray.svg" alt="Pas d'images " class="px-[55px]">
+    </section>
+
+    <section class="flex-col bg-section border border-border rounded-[12px] mt-[12px] h-[500px]  px-[40px]">
+        <div class="flex justify-between pt-[22px] pb-[40px]">
+            <div>
+                <p class="text-texte font-bold text-[16px] text-inter mb-[9px]">AI Music product</p>
+                <p class="text-texte font-medium text-[14px] text-inter">UX Case study</p>
+            </div>
+            <img src="images/majesticons_arrow-up-line.svg" alt="Pas d'images">
+        </div>
+
+        <div class="relative px-[80px]">
+            <img src="images/music.svg" alt="Pas d'images " class="absolute left-[19px] top-[1px]">
+            <img src="images/Music.svg" alt="Pas d'images">
+        </div>
+    </section>
+
+    <section class="flex-col bg-section border border-border rounded-[12px] mt-[12px] px-[40px] h-[500px] ">
+        <div class="flex justify-between pt-[22px] pb-[40px]">
+            <div>
+                <p class="text-texte font-bold text-[16px] text-inter mb-[9px]">AI Map redesign</p>
+                <p class="text-texte font-medium text-[14px] text-inter">UX Case study</p>
+            </div>
+            <img src="images/majesticons_arrow-up-line.svg" alt="Pas d'images">
+        </div>
+
+        <div>
+            <img src="images/Mask Group.svg" alt="Pas d'images" class="absolute left-[0.2px] ">
+            <img src="images/Mask Group.svg" alt="Pas d'images" class="static">
+        </div>
+    </section>
+
+    <footer class="flex flex-col justify-center items-center bg-section border border-border rounded-[12px] mt-[12px] h-[150px] ">
+            <p class="border border-white-500 rounded-[12px] w-[198px] pl-9 mb-[8px]"><span class="text-header rounded-[50px] border w-[3px] h-[0.2px] mr-[1px]"> </span> AVAILABLE FOR JOB</p>
+            <nav>
+                <ul class="flex gap-9 mb-[8px]">
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Linkedlin</li>
+                </ul>
+            </nav>
+            <p>Porfolio 2024</p>
+    </footer>
+
+    </div>
+</body>
+</html>
