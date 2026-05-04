@@ -20,7 +20,7 @@
 <body class="bg-black">
     <div class=" flex-col my-[23px] mx-[24px]">
 
-    <header class="flex gap-none h-[44px]  items-center mb-[12px] ">
+    <header class="flex gap-none h-[44px]  items-center mb-[12px]">
         <div class="rounded-[33px] p-[8.25px] border bg-section border-border">
             <img src="images/Mark.svg" alt="Pas d'images" class="w-[24px] h-[24px]">
         </div>
@@ -35,28 +35,27 @@
             <img src="images/mi_menu.svg" alt="Pas d'images" class="w-[24px] h-[24px] md:hidden">
         </div>
     </header>
-
-    <section class="flex flex-col bg-section justify-between items-start pl-[16px] py-[22px] border border-border rounded-[9px]">
-        <div class="hidden">
-            <p>UI/UX Designer</p>
-            <h1>I'm Zinab Nisa</h1>
-            <p>I design digital products with greatt experience</p>
-            <div>
-                <button>Hire me </button>
-                <button>+</button>
-                <p>Copy Email</p>
-                <button>
-                    <img src="images/ph_copy.svg" alt="Pas d'images">
-                </button>
+<div>
+    <section class=" bg-section justify-between items-start pl-[16px] py-[22px] border border-border rounded-[9px]">
+        <div class="hidden lg:flex lg:justify-between items-center px-9">
+            <div class="lg:justify-between items-center ">
+                <p class="text-texte font-medium text-[20px] text-inter mt-3 mb-15">UI/UX Designer</p>
+                <h1 class="text-texte font-bold text-[28px] text-inter">I'm Zinab Nisa</h1>
+                <p class="text-texte font-medium text-[16px] text-inter">I design digital products with greatt experience</p>
+                <div class="flex gap-3 mt-5">
+                    <button class=" flex items-center gap-2 text-texte font-medium text-[20px] text-inter bg-header rounded h-[35px] w-[130px] p-2">Hire me <span class="text-black w-[1px] h-[33px] mx-[1px]  rounded-[50px] border"> </span> + </button>
+                    <button class="flex gap-3 text-texte font-medium text-[16px] text-inter bg-black-500 rounded h-[33px] w-[150px] border border-border">
+                        <span>Copy Email</span> <span class="text-border rounded-[50px] border w-[3px] h-[33px] mx-[2px]"> </span> <img src="images/ph_copy.svg" alt="Pas d'images">
+                    </button>
+                </div>
             </div>
-
-            <div>
-                <p><span> </span> AVAILABLE FOR JOB</p>
-                <img src="images/Ellipse 61.svg" alt="">
+            <div class="lg:flex flex-col justify-between" >
+             <p class="flex items-center justify-center bg-black text-texte  border border-white-500 rounded-[12px] w-[210px] gap-2 mb-[8px] lg:mb-7"><span class="w-2.5 h-2.5 bg-header rounded-full "> </span> AVAILABLE FOR JOB</p>
+                <img src="images/Ellipse 61.svg" alt="Pas d'image"  class="lg:w-10% h-10%">
             </div>
         </div>
 
-        <div class="flex flex-col h-[389px]">
+        <div class="flex flex-col h-[389px] lg:hidden">
              <p class="flex items-center justify-center bg-black text-texte  border border-white-500 rounded-[12px] w-[210px] gap-2 mb-[8px] "><span class="w-2.5 h-2.5 bg-header rounded-full "> </span> AVAILABLE FOR JOB</p>
             <p class="text-texte font-medium text-[20px] text-inter mt-3">UI/UX Designer</p>
             <img src="images/Ellipse 61.svg" alt="" class="w-1/3 h-1/2">
@@ -165,17 +164,18 @@
             <img src="images/Mask Group.svg" alt="Pas d'images">
         </div>
     </section>
+</div>
 
-    <footer class="flex flex-col justify-center items-center bg-section border border-border rounded-[12px] mt-[12px] h-[150px] lg:flex flex-row justify-between items-between px-[15px] w-full">
-            <p class="flex items-center justify-center bg-black text-texte  border border-white-500 rounded-[12px] w-[210px] gap-2 mb-[8px] "><span class="w-2.5 h-2.5 bg-header rounded-full "> </span> AVAILABLE FOR JOB</p>
-            <nav class="lg:w-full ">
-                <ul class="flex gap-9 mb-[8px]">
+    <footer class="flex flex-col justify-center items-center bg-section border border-border rounded-[12px] mt-[12px] h-[150px] lg:flex-row lg:justify-between lg:items-center px-[25px] lg:h-[100px] w-full lg:bg-gradient-to-bl from-[#1B1B1B] from-60% to-[#E63E21] to-100% mb-[12px]">
+            <p class="flex items-center justify-center bg-black text-texte  border border-white-500 rounded-[12px] w-[210px] gap-2 mb-[8px] "><span class="w-2.5 h-2.5 bg-header rounded-full lg:mb-0"> </span> AVAILABLE FOR JOB</p>
+            <nav >
+                <ul class="flex gap-9 mb-[8px] lg:mb-0 flex">
                     <li class="text-texte font-medium text-[16px] text-inter hover:text-header">Twitter</li>
                     <li class="text-texte font-medium text-[16px] text-inter hover:text-header">Instagram</li>
                     <li class="text-texte font-medium text-[16px] text-inter hover:text-header">Linkedlin</li>
                 </ul>
             </nav>
-            <p class="text-texte font-medium text-[20px] text-inter">Porfolio 2024</p>
+            <p class="text-texte font-medium text-[20px] text-inter lg:mb-0">Porfolio 2024</p>
     </footer>
 
 </body>
